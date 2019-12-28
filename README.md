@@ -12,4 +12,10 @@ cvlc v4l2:///dev/video0:chroma=h264 :input-slave=alsa://hw:1,0 --sout '#transcod
 ```
 at startup if you'd prefer.
 
+I had problems getting the audio to initialise correctly, so I just started pulse and alsa (I think?) before starting the stream.
+
 More info can be found in the [Instructable]() or the [YouTube Video](https://www.youtube.com/watch?v=34BEyuVkE_I)
+
+Cheers,
+
+Bryce. 
